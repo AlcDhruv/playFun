@@ -7,7 +7,7 @@ It describes the purpose of the project, the technologies you’ve used, how to 
 
 ---
 
-# sihapp 🚀
+# playFun 🚀
 
 An educational, gamified Flutter application targeting middle‑school learners.  
 This repo contains the first prototype of a platform where children can play simple maths games while learning fundamentals of arithmetic.  
