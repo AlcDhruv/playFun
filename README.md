@@ -30,16 +30,31 @@ The project follows standard Flutter architecture; all sources live under lib (s
 ## 🛠 Project structure
 
 ```
-lib/
-├── main.dart             # entry point
-├── login.dart            # authentication stub
-├── signup.dart
-├── subjects.dart         # subject selection
-├── maths_games.dart
-├── equation_shooter.dart # the only game so far
-├── database_helper.dart  # local data persistence
-├── class_page.dart
-└── theme_provider.dart   # light/dark theming
+├── android/           # platform-specific Android project
+├── ios/               # iOS project files and Xcode workspace
+├── macos/             # macOS desktop project
+├── linux/             # Linux desktop project
+├── windows/           # Windows desktop project
+├── web/               # Web build outputs and assets
+├── assets/            # static assets (images, fonts, etc.)
+├── fonts/             # custom fonts
+├── build/             # generated build artifacts
+├── lib/               # Dart source code for the app
+│   ├── main.dart
+│   ├── login.dart
+│   ├── signup.dart
+│   ├── subjects.dart
+│   ├── maths_games.dart
+│   ├── equation_shooter.dart
+│   ├── database_helper.dart
+│   ├── class_page.dart
+│   └── theme_provider.dart
+├── test/              # unit and widget tests
+├── analysis_options.yaml
+├── devtools_options.yaml
+├── pubspec.yaml       # Dart package configuration
+├── README.md          # this file
+└── ... other config / gradle files ...
 ```
 
 ---
